@@ -1,16 +1,41 @@
-# project
+# Flutter Firebase Todo App 📱✅
 
-A new Flutter project.
+![App Screenshot](screenshots/app_preview.png) <!-- Add your screenshot later -->
 
-## Getting Started
+A modern cross-platform todo application built with Flutter and Firebase, featuring real-time synchronization, beautiful UI, and intuitive task management.
 
-This project is a starting point for a Flutter application.
+## Features ✨
 
-A few resources to get you started if this is your first Flutter project:
+- **Firebase Backend**: Real-time data sync with Firestore
+- **Modern UI**: Material 3 design with dark/light theme
+- **Task Management**:
+  - Add/edit/delete tasks
+  - Mark tasks as complete
+  - Priority levels (High/Medium/Low)
+  - Due dates with reminders
+- **Statistics Dashboard**: Visual charts of task completion
+- **User Profile**: Personalized account management
+- **Responsive Design**: Works on mobile and tablet
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Stack 🛠️
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Frontend**: Flutter 3.19+
+- **Backend**: Firebase (Firestore, Authentication)
+- **State Management**: Built-in Flutter State
+- **UI Libraries**:
+  - flutter_slidable
+  - syncfusion_flutter_charts
+  - intl
+
+## Installation ⚙️
+
+### Prerequisites
+- Flutter SDK 3.19+
+- Firebase project setup
+- Android Studio/Xcode (for emulators)
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/flutter-todo-app.git
+   cd flutter-todo-app
